@@ -5,7 +5,7 @@ Version:	0.9.3
 Release:	1
 License:	GPL
 Group:		Applications/Editors
-Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/aewan/%{name}-%{version}.tar.gz
 # Source0-md5:	5cff245a78f614a846c3328a9c2beb88
 # Source0-size:	92160
 Patch0:		%{name}-DESTDIR.patch
