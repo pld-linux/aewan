@@ -1,14 +1,12 @@
 Summary:	Aewan Ascii Art Editor
 Summary(pl):	Edytor sztuki Ascii Aewan
 Name:		aewan
-Version:	0.9.3
+Version:	0.9.6
 Release:	1
 License:	GPL
 Group:		Applications/Editors
 Source0:	http://dl.sourceforge.net/aewan/%{name}-%{version}.tar.gz
-# Source0-md5:	5cff245a78f614a846c3328a9c2beb88
-# Source0-size:	92160
-Patch0:		%{name}-DESTDIR.patch
+# Source0-md5:	69bdb9e30c7819bedf1fc4fdf6ea6462
 URL:		http://aewan.sourceforge.net/
 BuildRequires:	automake
 BuildRequires:	autoconf
@@ -29,7 +27,6 @@ aplikacjach terminalowych.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 CFLAGS="%{rpmcflags} -I%{_includedir}/ncurses"
