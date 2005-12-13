@@ -8,8 +8,8 @@ Group:		Applications/Editors
 Source0:	http://dl.sourceforge.net/aewan/%{name}-%{version}.tar.gz
 # Source0-md5:	89545338d1eba311297b520f9dc1b976
 URL:		http://aewan.sourceforge.net/
-BuildRequires:	automake
 BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	ncurses-devel
 BuildRequires:	zlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -29,7 +29,7 @@ aplikacjach terminalowych.
 %setup -q
 
 %build
-CFLAGS="%{rpmcflags} -I%{_includedir}/ncurses"
+CFLAGS="%{rpmcflags} -I/usr/include/ncurses"
 %{__aclocal}
 %{__autoconf}
 %configure
