@@ -1,5 +1,5 @@
 Summary:	Aewan Ascii Art Editor
-Summary(pl):	Edytor sztuki Ascii Aewan
+Summary(pl.UTF-8):   Edytor sztuki Ascii Aewan
 Name:		aewan
 Version:	1.0.01
 Release:	1
@@ -19,10 +19,10 @@ Aewan is a multi-layered ascii-art/animation editor that produces both
 stand-alone cat-able art files and an easy-to-parse format for
 integration in your terminal applications.
 
-%description -l pl
-Aewan jest obs³uguj±cym wiele warstw edytorem sztuki ascii/animacji,
-zdolnym do tworzenia zarówno samodzielnych cat-owalnych plików
-ascii-art, jak tak¿e plików ³atwo parsowalnych dla integracji w
+%description -l pl.UTF-8
+Aewan jest obsÅ‚ugujÄ…cym wiele warstw edytorem sztuki ascii/animacji,
+zdolnym do tworzenia zarÃ³wno samodzielnych cat-owalnych plikÃ³w
+ascii-art, jak takÅ¼e plikÃ³w Å‚atwo parsowalnych dla integracji w
 aplikacjach terminalowych.
 
 %prep
