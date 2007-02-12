@@ -1,5 +1,5 @@
 Summary:	Aewan Ascii Art Editor
-Summary(pl.UTF-8):   Edytor sztuki Ascii Aewan
+Summary(pl.UTF-8):	Edytor sztuki Ascii Aewan
 Name:		aewan
 Version:	1.0.01
 Release:	1
